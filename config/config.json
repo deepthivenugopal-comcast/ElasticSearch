@@ -2,6 +2,6 @@
 {
   "elasticsearch": {
     "hosts": ["https://csaf-elk.eaas.comcast.net:443"],
-    "http_auth": ["bsdtcoedaas_api_service_account", "p@ssw0rd"]
+    "http_auth": ["bsdtcoedaas_api_service_account", "enterpasswordhere"]
   }
 }
