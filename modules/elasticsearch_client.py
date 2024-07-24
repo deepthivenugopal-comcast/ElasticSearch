@@ -14,7 +14,7 @@ def get_es_client(config_path):
         hosts=config['elasticsearch']['hosts'],
         http_auth=tuple(config['elasticsearch']['http_auth'])
     )
-    return es, config['elasticsearch'].get('index','default_index')
+    return es, config['elasticsearch']['index']
 
 
 
